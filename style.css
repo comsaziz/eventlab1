@@ -1,0 +1,33 @@
+.button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+   
+}
+
+.button1 {
+    background-color: brown;
+}
+
+.button2 {
+    background-color: blueviolet;
+}
+
+.paragraph {
+    margin-top: 20px;
+}
+
+.button1:hover ~ .para1::before {
+    content: 'My name';
+}
+
+.button2:hover ~ .para2::before {
+    content: 'is';
+}
+
+.button3:hover ~ .para3::before {
+    content: 'Abdulaziz';
+}
